@@ -105,9 +105,53 @@ textarea {
    ========================================================================== */
 
 
-map area:hover{
- background-color: orange;
+/* ~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~*/
+.headernavdesktop, .connexion{
+  display: none;
 }
+
+header{
+  background-color: rgba(245, 109, 45, 1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 70px;
+}
+
+.menumobile{
+  background-color: white;
+  margin:20px;
+  height: 40px;
+  width: 70px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menumobile a{
+  display: block;
+  text-decoration: none;
+  color: rgba(245, 109, 45, 1);
+  text-align: center;
+}
+
+.mainlogo img{
+  width: 100%;
+  height: auto;
+}
+
+.mainlogo{
+  width: 200px;
+  margin: auto;
+}
+
+/* ~~~~~~~~~~~~~~~ END OF HEADER ~~~~~~~~~~~~~~~*/
+
+
+
+
+
 
 
 
