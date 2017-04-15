@@ -104,6 +104,21 @@ textarea {
 = =                                                                       = =
    ========================================================================== */
 
+/* ~~~~~~~~~~~~~~~ COMMON RULES ~~~~~~~~~~~~~~~*/
+.bold{
+  font-weight: bold;
+}
+
+.orange{
+  color: rgba(245, 109, 45, 1);
+}
+
+a{
+  text-decoration: none;
+}
+/* ~~~~~~~~~~~~~~~ COMMON RULES ~~~~~~~~~~~~~~~*/
+
+
 
 /* ~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~*/
 .headernavdesktop, .connexion{
@@ -149,7 +164,61 @@ header{
 /* ~~~~~~~~~~~~~~~ END OF HEADER ~~~~~~~~~~~~~~~*/
 
 
-/* ~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~*/
+/* ~~~~~~~~~~~~~~~ LEFT ACCUEIL ~~~~~~~~~~~~~~~*/
+.leftaccueil{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leftaccueil p{
+  text-align: center;
+}
+
+.buttonleftaccueil1 div img, .buttonleftaccueil2 div img{
+  display: none;
+}
+
+.buttonleftaccueil1 div{
+  background-color: rgba(65,131,215,1);
+  width: 320px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  margin:10px;
+}
+
+.buttonleftaccueil1{
+  color: white;
+}
+
+.buttonleftaccueil1 div:hover{
+ background-color: rgba(65,170,215,1)
+ }
+
+.buttonleftaccueil2 div{
+  background-color: white;
+  width: 320px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  border: solid rgba(65,131,215,1) 1px;
+  margin:10px;
+}
+
+.buttonleftaccueil2{
+  color: rgba(65,131,215,1);
+}
+
+.buttonleftaccueil2 div:hover{
+ background-color: rgba(141,170,243,0.3)
+ }
 
 
 
