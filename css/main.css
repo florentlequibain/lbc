@@ -105,6 +105,11 @@ textarea {
    ========================================================================== */
 
 /* ~~~~~~~~~~~~~~~ COMMON RULES ~~~~~~~~~~~~~~~*/
+
+body{
+  font-family: "OpenSansSemiBold",sans-serif;
+}
+
 .bold{
   font-weight: bold;
 }
@@ -307,7 +312,8 @@ header{
 }
 
 .footerend p{
-  color:white
+  color:white;
+  margin: 20px;
 }
 
 .footerendlogo p{
@@ -336,7 +342,6 @@ header{
 }
 
 .leftaccueil{
- background-color: green;
  width: 45%;
  margin-top: 70px;
 }
@@ -345,18 +350,169 @@ header{
   width: 50%;
   margin-top: 70px;
 }
-
-.bottomaccueil{
-  background-color: red;
 }
 
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* ~~~~~~~~~~~~~~~ FOR DESKTOP 1150px ~~~~~~~~~~~~~~~*/
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+@media (min-width:1150px) {
+
+
+/* ~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~*/
+
+  header{
+    justify-content: space-around;
+  }
+
+  .mainlogo{
+    margin: 0;
+  }
+
+  .headernavdesktop{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+  }
+
+  .headernavdesktop a{
+    color: white;
+    font-size: 0.9em;
+  }
+
+  .headernavdesktop a:hover{
+    text-decoration: underline;
+  }
+
+  .connexion{
+    display: flex;
+    background-color: rgba(245, 109, 45, 1);
+    height: 100%;
+    width: 180px;
+    justify-content: space-around;
+    align-items: center;
+    border-left: solid white 1px;
+    border-right: solid white 1px;
+  }
+
+  .connexionorange{
+    display: none;
+  }
+
+  .seconnecter{
+    color: white;
+  }
+
+  .connexionorange, .connexionwhite{
+    width: 20px;
+    height: 20px;
+  }
+
+  .connexion:hover{
+    background-color: white;
+    transition: 0.3s;
+  }
+
+  .connexion:hover .connexionorange{
+    display: block;
+    transition: 0.3s;
+  }
+
+  .connexion:hover .connexionwhite{
+    display: none;
+    transition: 0.3s;
+  }
+
+  .connexion:hover .seconnecter{
+    color: rgba(245, 109, 45, 1);
+    transition: 0.3s;
+  }
+
+  .menumobile{
+    display: none;
+  }
+
+
+  /* ~~~~~~~~~~~~~~~ INDEX LEFT ACCUEIL ~~~~~~~~~~~~~~~*/
+
+  .leftaccueil{
+    width: 30%;
+    margin-top: 80px;
+  }
+
+  .buttonleftaccueil1 , .buttonleftaccueil2{
+    width: 100%;
+  }
+
+  .buttonleftaccueil1 div, .buttonleftaccueil2 div{
+    width: 100%;
+  }
+  /* ~~~~~~~~~~~~~~~ END INDEX LEFT ACCUEIL ~~~~~~~~~~~~~~~*/
+
+
+
+  /* ~~~~~~~~~~~~~~~ INDEX RIGHT ACCUEIL ~~~~~~~~~~~~~~~*/
+
+  .rightaccueil{
+    display: block;
+    margin-top: 60px;
+    margin-right: 10px;
+    width: 20%;
+  }
+
+  .rightaccueil ul{
+    list-style: none;
+    text-align: right;
+  }
+
+  .rightaccueil ul li a{
+    color: rgba(65,131,215,1);
+  }
+
+  .rightaccueil ul li a:hover{
+    color: rgba(245, 109, 45, 1);
+    transition: 0.1s;
+  }
+
+
+  /* ~~~~~~~~~~~~~~~ END INDEX RIGHT ACCUEIL ~~~~~~~~~~~~~~~*/
+
+  .containermap img{
+    width: inherit;
+    margin-top: 80px;
+  }
+
+  /* ~~~~~~~~~~~~~~~ INDEX BOTTOM ACCUEIL ~~~~~~~~~~~~~~~*/
+  .selecttablet{
+    display: none;
+  }
+
+  /* ~~~~~~~~~~~~~~~ END INDEX BOTTOM ACCUEIL ~~~~~~~~~~~~~~~*/
+
+
+  /* ~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~*/
+  .footer1{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .productslist{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+  }
+
+  .productlist a{
+    display: block;
+  }
+  /* ~~~~~~~~~~~~~~~ END FOOTER ~~~~~~~~~~~~~~~*/
+
+
 
 
 }
-
-
-
 
 
 
