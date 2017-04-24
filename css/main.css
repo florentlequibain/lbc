@@ -492,25 +492,86 @@ header{
 
 
   /* ~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~*/
+
+
+
+  /* ~~~~~~~~~~~~~~~ FOOTER 1 ~~~~~~~~~~~~~~~*/
+
   .footer1{
     display: flex;
     justify-content: space-around;
+    background-color: rgba(242, 242, 242, 1);
+    height: 500px;
   }
 
   .productslist{
-    background-color: red;
     display: flex;
     flex-direction: column;
     width: 24%;
   }
 
-  .productlist a{
-    display: block;
+  .productslist a{
+    color: rgba(65,131,215,1);
   }
-  /* ~~~~~~~~~~~~~~~ END FOOTER ~~~~~~~~~~~~~~~*/
+
+  .productslist a:hover{
+    text-decoration: underline;
+  }
+  /* ~~~~~~~~~~~~~~~ END FOOTER 1 ~~~~~~~~~~~~~~~*/
 
 
 
+
+
+  /* ~~~~~~~~~~~~~~~ FOOTER 2 ~~~~~~~~~~~~~~~*/
+  .footer2{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(71, 71, 71,1);
+    height: 350px;
+  }
+
+  .articlefooterbottom{
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+  }
+
+  .articlefooterbottom p{
+    color: white;
+  }
+
+  .articlefooterbottom a{
+    display: block;
+    height: 35px;
+    color: white;
+  }
+
+  .articlefooterbottom a:hover{
+    text-decoration: underline;
+  }
+
+  .applications{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .applications a img{
+    width: 150px;
+    height: auto;
+  }
+
+  /* ~~~~~~~~~~~~~~~ END FOOTER 2 ~~~~~~~~~~~~~~~*/
+
+  .footerpartenaires{
+    display: block;
+    text-align: center;
+    color: white;
+  }
+
+  footer{
+    background-color: rgba(71, 71, 71,1);
+  }
 
 }
 
