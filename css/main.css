@@ -138,6 +138,8 @@ header{
   width: 100%;
   height: 70px;
   position: fixed;
+  top: 0;
+  left: 0;
 }
 
 .menumobile{
@@ -286,6 +288,185 @@ header{
    text-decoration: underline;
  }
  /* ~~~~~~~~~~~~~~~ INDEX END BOTTOM ACCUEIL ~~~~~~~~~~~~~~~*/
+
+
+ /* ~~~~~~~~~~~~~~~ DEPOT CONTAINER ~~~~~~~~~~~~~~~*/
+.containerdepot{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 80px;
+}
+
+.containerdepot h2{
+  font-size: 1.2em;
+  color: rgba(185, 185, 185, 1);
+}
+
+/* ~~~~~~~~~~~~~~~ DEPOT ARTICLE INFORMATIONS ~~~~~~~~~~~~~~~*/
+.articleannonce, .articlelocalisation, .articleinformation{
+  margin-top: 40px;
+}
+
+.articletitredepot{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgba(102,102,102,1);
+  height: 50px;
+  width: 100%;
+}
+
+.articletitredepot h3{
+  font-size: 1em;
+  color: white;
+  font-weight: lighter;
+  margin: 10px;
+}
+
+.articleannonce, .articleinformation, .articlelocalisation{
+  border: solid lightgrey 1px;
+}
+
+.articledepotmarge{
+  width: 95%;
+  margin: auto;
+}
+
+.titreannonce, .prixannonce{
+  width: 97%;
+  margin:0;
+  border: 1px solid lightgrey;
+  height: 40px;
+  border-radius: 3px;
+}
+
+.texteannonce{
+  width: 97%;
+  margin:0;
+  border: 1px solid lightgrey;
+  height: 300px;
+  border-radius: 3px;
+}
+
+.appareilphoto{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.appareilphoto figure{
+  background-color: rgba(242, 242, 242, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 80px;
+  border: dashed 1px grey;
+  border-radius: 4px;
+  margin: 0;
+}
+
+.appareilphoto figure img{
+  width: 40px;
+  height: auto;
+}
+
+.photosupplementaire figure img{
+  width: 40px;
+  height: auto;
+}
+
+.photosupplementaire{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  border: dashed 2px rgba(245, 109, 45, 1);
+  margin-top: 15px;
+}
+
+.photosupplementaire p{
+  color: rgba(245, 109, 45, 1);
+  margin: 10px;
+  font-weight: bold;
+}
+
+.articlelocalisation input{
+  width: 97%;
+  margin:0;
+  border: 1px solid lightgrey;
+  height: 40px;
+  border-radius: 3px;
+}
+
+.validadress{
+  width: 97%;
+  height: 40px;
+}
+
+.validadress p{
+  color: white;
+}
+
+.validadress div{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color:rgba(245, 109, 45, 1);
+  border-radius: 3px;
+}
+
+.textbleu{
+  padding: 7px;
+  margin-top: 20px;
+  background-color: rgba(217, 230, 247,1);
+  border-radius: 4px;
+}
+
+
+/* ~~~~~~~~~~~~~~~ END DEPOT ARTICLE INFORMATIONS ~~~~~~~~~~~~~~~*/
+
+
+ /* ~~~~~~~~~~~~~~~ END CONTAINER DEPOT ~~~~~~~~~~~~~~~*/
+
+
+
+ /* ~~~~~~~~~~~~~~~ CONTAINER ANNONCE ~~~~~~~~~~~~~~~*/
+  .bandeaurecherche{
+    display: none;
+  }
+
+  .containerannonce{
+    margin-top: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: pink;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .articleright{
+    order: 3;
+  }
+
+  .containerannonce h2{
+    color: grey;
+    font-size: 1.3em;
+  }
+ /* ~~~~~~~~~~~~~~~ END CONTAINER ANNONCE ~~~~~~~~~~~*/
+
+
+
+
+
+
+
+
 
 
  /* ~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~*/
