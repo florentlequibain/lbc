@@ -1,10 +1,12 @@
 /*! HTML5 Boilerplate v5.3.0 | MIT License | https://html5boilerplate.com/ */
 
+
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
+
 
 /* ==========================================================================
    Base styles: opinionated defaults
@@ -15,6 +17,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -34,6 +37,7 @@ html {
     text-shadow: none;
 }
 
+
 /*
  * A better looking default horizontal rule
  */
@@ -47,20 +51,17 @@ hr {
     padding: 0;
 }
 
+
 /*
  * Remove the gap between audio, canvas, iframes,
  * images, videos and the bottom of their containers:
  * https://github.com/h5bp/html5-boilerplate/issues/440
  */
 
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
+audio, canvas, iframe, img, svg, video {
     vertical-align: middle;
 }
+
 
 /*
  * Remove default fieldset styles.
@@ -72,6 +73,7 @@ fieldset {
     padding: 0;
 }
 
+
 /*
  * Allow only vertical resizing of textareas.
  */
@@ -79,6 +81,7 @@ fieldset {
 textarea {
     resize: vertical;
 }
+
 
 /* ==========================================================================
    Browser Upgrade Prompt
@@ -90,6 +93,7 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
+
 
 /* ==========================================================================
 = =                                                                       = =
@@ -104,662 +108,740 @@ textarea {
 = =                                                                       = =
    ========================================================================== */
 
+
 /* ~~~~~~~~~~~~~~~ COMMON RULES ~~~~~~~~~~~~~~~*/
 
-body{
-  font-family: "OpenSansSemiBold",sans-serif;
+body {
+    font-family: "OpenSansSemiBold", sans-serif;
 }
 
-.bold{
-  font-weight: bold;
+.bold {
+    font-weight: bold;
 }
 
-.orange{
-  color: rgba(245, 109, 45, 1);
+.orange {
+    color: rgba(245, 109, 45, 1);
 }
 
-a{
-  text-decoration: none;
+a {
+    text-decoration: none;
 }
+
+
 /* ~~~~~~~~~~~~~~~ COMMON RULES ~~~~~~~~~~~~~~~*/
-
 
 
 /* ~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~*/
-.headernavdesktop, .connexion{
-  display: none;
+
+.headernavdesktop, .connexion {
+    display: none;
 }
 
-header{
-  background-color: rgba(245, 109, 45, 1);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 100%;
-  height: 70px;
-  position: fixed;
-  top: 0;
-  left: 0;
+header {
+    background-color: rgba(245, 109, 45, 1);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
-.menumobile{
-  background-color: white;
-  margin:20px;
-  height: 40px;
-  width: 70px;
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition-property: background-color;
-  transition-duration: 1s;
+.menumobile {
+    background-color: white;
+    margin: 20px;
+    height: 40px;
+    width: 70px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-property: background-color;
+    transition-duration: 1s;
 }
 
-.menumobile:hover{
-  background-color:rgba(140,170,243,0.4);
+.menumobile:hover {
+    background-color: rgba(140, 170, 243, 0.4);
 }
 
-.menumobile a{
-  display: block;
-  text-decoration: none;
-  color: rgba(245, 109, 45, 1);
-  text-align: center;
+.menumobile a {
+    display: block;
+    text-decoration: none;
+    color: rgba(245, 109, 45, 1);
+    text-align: center;
 }
 
-.mainlogo img{
-  width: 100%;
-  height: auto;
+.mainlogo img {
+    width: 100%;
+    height: auto;
 }
 
-.mainlogo{
-  width: 180px;
-  margin: auto;
+.mainlogo {
+    width: 180px;
+    margin: auto;
 }
+
 
 /* ~~~~~~~~~~~~~~~ END OF HEADER ~~~~~~~~~~~~~~~*/
 
 
 /* ~~~~~~~~~~~~~~~ INDEX LEFT ACCUEIL ~~~~~~~~~~~~~~~*/
-.leftaccueil{
-  width: 90%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 70px;
+
+.leftaccueil {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
 }
 
-.leftaccueil p{
-  text-align: center;
+.leftaccueil p {
+    text-align: center;
 }
 
-.buttonleftaccueil1 div img, .buttonleftaccueil2 div img{
-  display: none;
+.buttonleftaccueil1 div img, .buttonleftaccueil2 div img {
+    display: none;
 }
 
-.buttonleftaccueil1 div{
-  background-color: rgba(65,131,215,1);
-  width: 320px;
-  height: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-  margin:10px;
+.buttonleftaccueil1 div {
+    background-color: rgba(65, 131, 215, 1);
+    width: 320px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin: 10px;
 }
 
-.buttonleftaccueil1{
-  color: white;
+.buttonleftaccueil1 {
+    color: white;
 }
 
-.buttonleftaccueil1 div:hover{
- background-color: rgba(65,170,215,1)
- }
-
-.buttonleftaccueil2 div{
-  background-color: white;
-  width: 320px;
-  height: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-  border: solid rgba(65,131,215,1) 1px;
-  margin:10px;
+.buttonleftaccueil1 div:hover {
+    background-color: rgba(65, 170, 215, 1)
 }
 
-.buttonleftaccueil2{
-  color: rgba(65,131,215,1);
+.buttonleftaccueil2 div {
+    background-color: white;
+    width: 320px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    border: solid rgba(65, 131, 215, 1) 1px;
+    margin: 10px;
 }
 
-.buttonleftaccueil2 div:hover{
- background-color: rgba(141,170,243,0.3);
- }
- /* ~~~~~~~~~~~~~~~ INDEX END LEFT ACCUEIL ~~~~~~~~~~~~~~~*/
-
-
- /* ~~~~~~~~~~~~~~~ INDEX MAP ~~~~~~~~~~~~~~~*/
- .containermap{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
- }
-
- .containermap img{
-  width: 80%;
-  height: auto;
-  margin: auto;
- }
- /* ~~~~~~~~~~~~~~~ INDEX END MAP ~~~~~~~~~~~~~~~*/
-
-
- /* ~~~~~~~~~~~~~~~ INDEX RIGHT ACCUEIL ~~~~~~~~~~~~~~~*/
- .rightaccueil{
-   display: none;
- }
- /* ~~~~~~~~~~~~~~~ INDEX END RIGHT ACCUEIL ~~~~~~~~~~~~~~~*/
-
-
- /* ~~~~~~~~~~~~~~~ INDEX BOTTOM ACCUEIL ~~~~~~~~~~~~~~~*/
- .bottomaccueil{
-   margin-top: 20px;
-   width: 95%;
- }
-
- .selecttablet{
-   width: 100%;
-   height: 60px;
-   -webkit-appearance: none;
-   background: transparent;
-   border: 1px solid #ccc;
-   border-radius: 3px;
- }
-
- .bottomaccueil p{
-   text-align: center;
- }
-
- .bottomaccueil p a{
-   color: rgba(65,131,215,1);
- }
-
- .bottomaccueil p a:hover{
-   text-decoration: underline;
- }
- /* ~~~~~~~~~~~~~~~ INDEX END BOTTOM ACCUEIL ~~~~~~~~~~~~~~~*/
-
-
- /* ~~~~~~~~~~~~~~~ DEPOT CONTAINER ~~~~~~~~~~~~~~~*/
-.containerdepot{
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-top: 80px;
+.buttonleftaccueil2 {
+    color: rgba(65, 131, 215, 1);
 }
 
-.containerdepot h2{
-  font-size: 1.2em;
-  color: rgba(185, 185, 185, 1);
+.buttonleftaccueil2 div:hover {
+    background-color: rgba(141, 170, 243, 0.3);
 }
+
+
+/* ~~~~~~~~~~~~~~~ INDEX END LEFT ACCUEIL ~~~~~~~~~~~~~~~*/
+
+
+/* ~~~~~~~~~~~~~~~ INDEX MAP ~~~~~~~~~~~~~~~*/
+
+.containermap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containermap img {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+
+/* ~~~~~~~~~~~~~~~ INDEX END MAP ~~~~~~~~~~~~~~~*/
+
+
+/* ~~~~~~~~~~~~~~~ INDEX RIGHT ACCUEIL ~~~~~~~~~~~~~~~*/
+
+.rightaccueil {
+    display: none;
+}
+
+
+/* ~~~~~~~~~~~~~~~ INDEX END RIGHT ACCUEIL ~~~~~~~~~~~~~~~*/
+
+
+/* ~~~~~~~~~~~~~~~ INDEX BOTTOM ACCUEIL ~~~~~~~~~~~~~~~*/
+
+.bottomaccueil {
+    margin-top: 20px;
+    width: 95%;
+}
+
+.selecttablet {
+    width: 100%;
+    height: 60px;
+    -webkit-appearance: none;
+    background: transparent;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.bottomaccueil p {
+    text-align: center;
+}
+
+.bottomaccueil p a {
+    color: rgba(65, 131, 215, 1);
+}
+
+.bottomaccueil p a:hover {
+    text-decoration: underline;
+}
+
+
+/* ~~~~~~~~~~~~~~~ INDEX END BOTTOM ACCUEIL ~~~~~~~~~~~~~~~*/
+
+
+/* ~~~~~~~~~~~~~~~ DEPOT CONTAINER ~~~~~~~~~~~~~~~*/
+
+.containerdepot {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 80px;
+}
+
+.containerdepot h2 {
+    font-size: 1.2em;
+    color: rgba(185, 185, 185, 1);
+}
+
 
 /* ~~~~~~~~~~~~~~~ DEPOT ARTICLE INFORMATIONS ~~~~~~~~~~~~~~~*/
-.articleannonce, .articlelocalisation, .articleinformation{
-  margin-top: 40px;
+
+.articleannonce, .articlelocalisation, .articleinformation {
+    margin-top: 40px;
 }
 
-.articletitredepot{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  background-color: rgba(102,102,102,1);
-  height: 50px;
-  width: 100%;
+.articletitredepot {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(102, 102, 102, 1);
+    height: 50px;
+    width: 100%;
 }
 
-.articletitredepot h3{
-  font-size: 1em;
-  color: white;
-  font-weight: lighter;
-  margin: 10px;
+.articletitredepot h3 {
+    font-size: 1em;
+    color: white;
+    font-weight: lighter;
+    margin: 10px;
 }
 
-.articleannonce, .articleinformation, .articlelocalisation{
-  border: solid lightgrey 1px;
+.articleannonce, .articleinformation, .articlelocalisation {
+    border: solid lightgrey 1px;
 }
 
-.articledepotmarge{
-  width: 95%;
-  margin: auto;
+.articledepotmarge {
+    width: 95%;
+    margin: auto;
 }
 
-.titreannonce, .prixannonce{
-  width: 97%;
-  margin:0;
-  border: 1px solid lightgrey;
-  height: 40px;
-  border-radius: 3px;
+.titreannonce, .prixannonce {
+    width: 97%;
+    margin: 0;
+    border: 1px solid lightgrey;
+    height: 40px;
+    border-radius: 3px;
 }
 
-.texteannonce{
-  width: 97%;
-  margin:0;
-  border: 1px solid lightgrey;
-  height: 300px;
-  border-radius: 3px;
+.texteannonce {
+    width: 97%;
+    margin: 0;
+    border: 1px solid lightgrey;
+    height: 300px;
+    border-radius: 3px;
 }
 
-.appareilphoto{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 300px;
+.appareilphoto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
 }
 
-.appareilphoto figure{
-  background-color: rgba(242, 242, 242, 1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80px;
-  width: 80px;
-  border: dashed 1px grey;
-  border-radius: 4px;
-  margin: 0;
+.appareilphoto figure {
+    background-color: rgba(242, 242, 242, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    border: dashed 1px grey;
+    border-radius: 4px;
+    margin: 0;
 }
 
-.appareilphoto figure img{
-  width: 40px;
-  height: auto;
+.appareilphoto figure img {
+    width: 40px;
+    height: auto;
 }
 
-.photosupplementaire figure img{
-  width: 40px;
-  height: auto;
+.photosupplementaire figure img {
+    width: 40px;
+    height: auto;
 }
 
-.photosupplementaire{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  border: dashed 2px rgba(245, 109, 45, 1);
-  margin-top: 15px;
+.photosupplementaire {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: dashed 2px rgba(245, 109, 45, 1);
+    margin-top: 15px;
 }
 
-.photosupplementaire p{
-  color: rgba(245, 109, 45, 1);
-  margin: 10px;
-  font-weight: bold;
+.photosupplementaire p {
+    color: rgba(245, 109, 45, 1);
+    margin: 10px;
+    font-weight: bold;
 }
 
-.articlelocalisation input{
-  width: 97%;
-  margin:0;
-  border: 1px solid lightgrey;
-  height: 40px;
-  border-radius: 3px;
+.articlelocalisation input {
+    width: 97%;
+    margin: 0;
+    border: 1px solid lightgrey;
+    height: 40px;
+    border-radius: 3px;
 }
 
-.validadress{
-  width: 97%;
-  height: 40px;
+.validadress {
+    width: 97%;
+    height: 40px;
 }
 
-.validadress p{
-  color: white;
+.validadress p {
+    color: white;
 }
 
-.validadress div{
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  background-color:rgba(245, 109, 45, 1);
-  border-radius: 3px;
+.validadress div {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(245, 109, 45, 1);
+    border-radius: 3px;
 }
 
-.textbleu{
-  padding: 7px;
-  margin-top: 20px;
-  background-color: rgba(217, 230, 247,1);
-  border-radius: 4px;
+.textbleu {
+    padding: 7px;
+    margin-top: 20px;
+    background-color: rgba(217, 230, 247, 1);
+    border-radius: 4px;
 }
 
 
 /* ~~~~~~~~~~~~~~~ END DEPOT ARTICLE INFORMATIONS ~~~~~~~~~~~~~~~*/
 
 
- /* ~~~~~~~~~~~~~~~ END CONTAINER DEPOT ~~~~~~~~~~~~~~~*/
+/* ~~~~~~~~~~~~~~~ END CONTAINER DEPOT ~~~~~~~~~~~~~~~*/
 
 
+/* ~~~~~~~~~~~~~~~ CONTAINER ANNONCE ~~~~~~~~~~~~~~~*/
 
- /* ~~~~~~~~~~~~~~~ CONTAINER ANNONCE ~~~~~~~~~~~~~~~*/
-  .bandeaurecherche{
+.bandeaurecherche {
     display: none;
-  }
+}
 
-  .containerannonce{
+.containerannonce {
     margin-top: 80px;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: pink;
     display: flex;
-    flex-direction: column-reverse;
-  }
+    flex-direction: column;
+}
 
-  .articleright{
-    order: 3;
-  }
-
-  .containerannonce h2{
+.containerannonce h2 {
     color: grey;
     font-size: 1.3em;
-  }
- /* ~~~~~~~~~~~~~~~ END CONTAINER ANNONCE ~~~~~~~~~~~*/
-
-
-
-
-
-
-
-
-
-
- /* ~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~*/
- .footer1{
-   display: none;
- }
-
- .footer2{
-   display:none;
- }
-
-.footerpartenaires{
-  display: none;
 }
 
-.footerend{
-  width: 100%;
-  height: 90px;
-  background-color: rgba(71, 71, 71,1);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+
+/* ~~~~~~~~~~~~~~~ ARTICLE RIGHT ANNONCE ~~~~~~~~~~~~~~~*/
+
+.articleright {
+    width: 100%;
+    border: 2px solid rgba(245, 109, 45, 1);
 }
 
-.footerend p{
-  color:white;
-  margin: 20px;
+.articlerighth3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245, 109, 45, 1);
 }
 
-.footerendlogo p{
-  display: none;
+.articleright h3 {
+    color: white;
+    font-weight: normal;
+    font-size: 1.1em;
 }
 
-.footerendlogo img{
-  margin: 5px;
-  width: 30px;
+.articlerightproduct figure img {
+    width: 100%;
+    height: auto;
 }
+
+.articlerightproduct figure {
+    width: 100px;
+    margin: 0;
+}
+
+.articlerightproduct {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 120px;
+    border: 1px solid lightgrey;
+}
+
+.articlerightprix {
+    color: rgba(245, 109, 45, 1);
+    font-weight: bold;
+}
+
+.articlerighttitre {
+    color: rgba(65, 131, 215, 1);
+    font-weight: bold;
+}
+
+.articlerighttext {
+    width: 150px;
+    margin-left: 20px;
+}
+
+
+/* ~~~~~~~~~~~~~~~ END ARTICLE RIGHT ANNONCE ~~~~~~~~~~~~~~~*/
+
+
+/* ~~~~~~~~~~~~~~~ CONTAINER ANNONCE ~~~~~~~~~~~~~~~*/
+
+.navproduits {
+    display: flex;
+    flex-direction: row;
+}
+
+.navonglets1, .navonglets2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    border: 1px solid rgba(209, 209, 209, 1);
+}
+
+.navonglets1 {
+    background-color: white;
+}
+
+.navonglets2 {
+    background-color: rgba(230, 230, 230, 1);
+}
+
+.navonglets10 {
+    color: rgba(245, 109, 45, 1);
+}
+
+.navonglets20 {
+    color: black;
+}
+
+.navonglets1 p {
+    margin: 10px;
+}
+
+.navonglets2 p {
+    margin: 10px;
+}
+
+.product figure img {
+    width: 100%;
+    height: auto;
+}
+
+.product figure {
+    width: 40%;
+    margin: 10px;
+}
+
+.product {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.product h3 {
+    color: rgba(65, 131, 215, 1);
+}
+
+.prix {
+    font-weight: bold;
+    color: rgba(245, 109, 45, 1);
+}
+
+
+/* ~~~~~~~~~~~~~~~ END CONTAINER ANNONCE ~~~~~~~~~~~*/
+
+
+/* ~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~*/
+
+.footer1 {
+    display: none;
+}
+
+.footer2 {
+    display: none;
+}
+
+.footerpartenaires {
+    display: none;
+}
+
+.footerend {
+    width: 100%;
+    height: 90px;
+    background-color: rgba(71, 71, 71, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerend p {
+    color: white;
+    margin: 20px;
+}
+
+.footerendlogo p {
+    display: none;
+}
+
+.footerendlogo img {
+    margin: 5px;
+    width: 30px;
+}
+
+
 /* ~~~~~~~~~~~~~~~ END FOOTER ~~~~~~~~~~~~~~~*/
 
 
-
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
 /* ~~~~~~~~~~~~~~~ FOR TABLET 920px ~~~~~~~~~~~~~~~*/
+
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
-
-@media (min-width:920px){
-
-/* ~~~~~~~~~~~~~~~ INDEX CONTAINER ~~~~~~~~~~~~~~~*/
-.containermap{
-  flex-direction:row;
-  flex-wrap: wrap;
-}
-
-.leftaccueil{
- width: 45%;
- margin-top: 70px;
-}
-
-.containermap img{
-  width: 50%;
-  margin-top: 70px;
-}
+@media (min-width:920px) {
+    /* ~~~~~~~~~~~~~~~ INDEX CONTAINER ~~~~~~~~~~~~~~~*/
+    .containermap {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .leftaccueil {
+        width: 45%;
+        margin-top: 70px;
+    }
+    .containermap img {
+        width: 50%;
+        margin-top: 70px;
+    }
 }
 
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
 /* ~~~~~~~~~~~~~~~ FOR DESKTOP 1150px ~~~~~~~~~~~~~~~*/
+
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 @media (min-width:1150px) {
-
-
-/* ~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~*/
-
-  header{
-    justify-content: space-around;
-  }
-
-  .mainlogo{
-    margin: 0;
-  }
-
-  .headernavdesktop{
-    display: flex;
-    justify-content: space-around;
-    width: 60%;
-  }
-
-  .headernavdesktop a{
-    color: white;
-    font-size: 0.9em;
-  }
-
-  .headernavdesktop a:hover{
-    text-decoration: underline;
-  }
-
-  .connexion{
-    display: flex;
-    background-color: rgba(245, 109, 45, 1);
-    height: 100%;
-    width: 180px;
-    justify-content: space-around;
-    align-items: center;
-    border-left: solid white 1px;
-    border-right: solid white 1px;
-  }
-
-  .connexionorange{
-    display: none;
-  }
-
-  .seconnecter{
-    color: white;
-  }
-
-  .connexionorange, .connexionwhite{
-    width: 20px;
-    height: 20px;
-  }
-
-  .connexion:hover{
-    background-color: white;
-    transition: 0.3s;
-  }
-
-  .connexion:hover .connexionorange{
-    display: block;
-    transition: 0.3s;
-  }
-
-  .connexion:hover .connexionwhite{
-    display: none;
-    transition: 0.3s;
-  }
-
-  .connexion:hover .seconnecter{
-    color: rgba(245, 109, 45, 1);
-    transition: 0.3s;
-  }
-
-  .menumobile{
-    display: none;
-  }
-
-
-  /* ~~~~~~~~~~~~~~~ INDEX LEFT ACCUEIL ~~~~~~~~~~~~~~~*/
-
-  .leftaccueil{
-    width: 30%;
-    margin-top: 80px;
-  }
-
-  .buttonleftaccueil1 , .buttonleftaccueil2{
-    width: 100%;
-  }
-
-  .buttonleftaccueil1 div, .buttonleftaccueil2 div{
-    width: 100%;
-  }
-  /* ~~~~~~~~~~~~~~~ END INDEX LEFT ACCUEIL ~~~~~~~~~~~~~~~*/
-
-
-
-  /* ~~~~~~~~~~~~~~~ INDEX RIGHT ACCUEIL ~~~~~~~~~~~~~~~*/
-
-  .rightaccueil{
-    display: block;
-    margin-top: 60px;
-    margin-right: 10px;
-    width: 20%;
-  }
-
-  .rightaccueil ul{
-    list-style: none;
-    text-align: right;
-  }
-
-  .rightaccueil ul li a{
-    color: rgba(65,131,215,1);
-  }
-
-  .rightaccueil ul li a:hover{
-    color: rgba(245, 109, 45, 1);
-    transition: 0.1s;
-  }
-
-
-  /* ~~~~~~~~~~~~~~~ END INDEX RIGHT ACCUEIL ~~~~~~~~~~~~~~~*/
-
-  .containermap img{
-    width: inherit;
-    margin-top: 80px;
-  }
-
-  /* ~~~~~~~~~~~~~~~ INDEX BOTTOM ACCUEIL ~~~~~~~~~~~~~~~*/
-  .selecttablet{
-    display: none;
-  }
-
-  /* ~~~~~~~~~~~~~~~ END INDEX BOTTOM ACCUEIL ~~~~~~~~~~~~~~~*/
-
-
-  /* ~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~*/
-
-
-
-  /* ~~~~~~~~~~~~~~~ FOOTER 1 ~~~~~~~~~~~~~~~*/
-
-  .footer1{
-    display: flex;
-    justify-content: space-around;
-    background-color: rgba(242, 242, 242, 1);
-    height: 500px;
-  }
-
-  .productslist{
-    display: flex;
-    flex-direction: column;
-    width: 24%;
-  }
-
-  .productslist a{
-    color: rgba(65,131,215,1);
-  }
-
-  .productslist a:hover{
-    text-decoration: underline;
-  }
-  /* ~~~~~~~~~~~~~~~ END FOOTER 1 ~~~~~~~~~~~~~~~*/
-
-
-
-
-
-  /* ~~~~~~~~~~~~~~~ FOOTER 2 ~~~~~~~~~~~~~~~*/
-  .footer2{
-    display: flex;
-    justify-content: space-around;
-    background-color: rgba(71, 71, 71,1);
-    height: 350px;
-  }
-
-  .articlefooterbottom{
-    display: flex;
-    flex-direction: column;
-    width: 24%;
-  }
-
-  .articlefooterbottom p{
-    color: white;
-  }
-
-  .articlefooterbottom a{
-    display: block;
-    height: 35px;
-    color: white;
-  }
-
-  .articlefooterbottom a:hover{
-    text-decoration: underline;
-  }
-
-  .applications{
-    display: flex;
-    flex-direction: row;
-  }
-
-  .applications a img{
-    width: 150px;
-    height: auto;
-  }
-
-  /* ~~~~~~~~~~~~~~~ END FOOTER 2 ~~~~~~~~~~~~~~~*/
-
-  .footerpartenaires{
-    display: block;
-    text-align: center;
-    color: white;
-  }
-
-  footer{
-    background-color: rgba(71, 71, 71,1);
-  }
-
+    /* ~~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~~*/
+    header {
+        justify-content: space-around;
+    }
+    .mainlogo {
+        margin: 0;
+    }
+    .headernavdesktop {
+        display: flex;
+        justify-content: space-around;
+        width: 60%;
+    }
+    .headernavdesktop a {
+        color: white;
+        font-size: 0.9em;
+    }
+    .headernavdesktop a:hover {
+        text-decoration: underline;
+    }
+    .connexion {
+        display: flex;
+        background-color: rgba(245, 109, 45, 1);
+        height: 100%;
+        width: 180px;
+        justify-content: space-around;
+        align-items: center;
+        border-left: solid white 1px;
+        border-right: solid white 1px;
+    }
+    .connexionorange {
+        display: none;
+    }
+    .seconnecter {
+        color: white;
+    }
+    .connexionorange, .connexionwhite {
+        width: 20px;
+        height: 20px;
+    }
+    .connexion:hover {
+        background-color: white;
+        transition: 0.3s;
+    }
+    .connexion:hover .connexionorange {
+        display: block;
+        transition: 0.3s;
+    }
+    .connexion:hover .connexionwhite {
+        display: none;
+        transition: 0.3s;
+    }
+    .connexion:hover .seconnecter {
+        color: rgba(245, 109, 45, 1);
+        transition: 0.3s;
+    }
+    .menumobile {
+        display: none;
+    }
+    /* ~~~~~~~~~~~~~~~ INDEX LEFT ACCUEIL ~~~~~~~~~~~~~~~*/
+    .leftaccueil {
+        width: 30%;
+        margin-top: 80px;
+    }
+    .buttonleftaccueil1, .buttonleftaccueil2 {
+        width: 100%;
+    }
+    .buttonleftaccueil1 div, .buttonleftaccueil2 div {
+        width: 100%;
+    }
+    /* ~~~~~~~~~~~~~~~ END INDEX LEFT ACCUEIL ~~~~~~~~~~~~~~~*/
+    /* ~~~~~~~~~~~~~~~ INDEX RIGHT ACCUEIL ~~~~~~~~~~~~~~~*/
+    .rightaccueil {
+        display: block;
+        margin-top: 60px;
+        margin-right: 10px;
+        width: 20%;
+    }
+    .rightaccueil ul {
+        list-style: none;
+        text-align: right;
+    }
+    .rightaccueil ul li a {
+        color: rgba(65, 131, 215, 1);
+    }
+    .rightaccueil ul li a:hover {
+        color: rgba(245, 109, 45, 1);
+        transition: 0.1s;
+    }
+    /* ~~~~~~~~~~~~~~~ END INDEX RIGHT ACCUEIL ~~~~~~~~~~~~~~~*/
+    .containermap img {
+        width: inherit;
+        margin-top: 80px;
+    }
+    /* ~~~~~~~~~~~~~~~ INDEX BOTTOM ACCUEIL ~~~~~~~~~~~~~~~*/
+    .selecttablet {
+        display: none;
+    }
+    /* ~~~~~~~~~~~~~~~ END INDEX BOTTOM ACCUEIL ~~~~~~~~~~~~~~~*/
+    /* ~~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~~*/
+    /* ~~~~~~~~~~~~~~~ FOOTER 1 ~~~~~~~~~~~~~~~*/
+    .footer1 {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgba(242, 242, 242, 1);
+        height: 500px;
+    }
+    .productslist {
+        display: flex;
+        flex-direction: column;
+        width: 24%;
+    }
+    .productslist a {
+        color: rgba(65, 131, 215, 1);
+    }
+    .productslist a:hover {
+        text-decoration: underline;
+    }
+    /* ~~~~~~~~~~~~~~~ END FOOTER 1 ~~~~~~~~~~~~~~~*/
+    /* ~~~~~~~~~~~~~~~ FOOTER 2 ~~~~~~~~~~~~~~~*/
+    .footer2 {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgba(71, 71, 71, 1);
+        height: 350px;
+    }
+    .articlefooterbottom {
+        display: flex;
+        flex-direction: column;
+        width: 24%;
+    }
+    .articlefooterbottom p {
+        color: white;
+    }
+    .articlefooterbottom a {
+        display: block;
+        height: 35px;
+        color: white;
+    }
+    .articlefooterbottom a:hover {
+        text-decoration: underline;
+    }
+    .applications {
+        display: flex;
+        flex-direction: row;
+    }
+    .applications a img {
+        width: 150px;
+        height: auto;
+    }
+    /* ~~~~~~~~~~~~~~~ END FOOTER 2 ~~~~~~~~~~~~~~~*/
+    .footerpartenaires {
+        display: block;
+        text-align: center;
+        color: white;
+    }
+    footer {
+        background-color: rgba(71, 71, 71, 1);
+    }
 }
 
 
-
-
-   /* ==========================================================================
+/* ==========================================================================
    = =                                                                       = =
    = =                                  END                                  = =
    = =                                                                       = =
@@ -773,25 +855,10 @@ header{
       ========================================================================== */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
+
 
 /*
  * Hide visually and from screen readers
@@ -800,6 +867,7 @@ header{
 .hidden {
     display: none !important;
 }
+
 
 /*
  * Hide only visually, but have it available for screen readers:
@@ -817,14 +885,14 @@ header{
     width: 1px;
 }
 
+
 /*
  * Extends the .visuallyhidden class to allow the element
  * to be focusable when navigated to via the keyboard:
  * https://www.drupal.org/node/897638
  */
 
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
     clip: auto;
     height: auto;
     margin: 0;
@@ -833,6 +901,7 @@ header{
     width: auto;
 }
 
+
 /*
  * Hide visually and from screen readers, but maintain layout
  */
@@ -840,6 +909,7 @@ header{
 .invisible {
     visibility: hidden;
 }
+
 
 /*
  * Clearfix: contain floats
@@ -853,15 +923,17 @@ header{
  *    `:before` to contain the top-margins of child elements.
  */
 
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+.clearfix:before, .clearfix:after {
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
 }
 
 .clearfix:after {
     clear: both;
 }
+
 
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
@@ -873,12 +945,10 @@ header{
     /* Style adjustments for viewports that meet the condition */
 }
 
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
+
 
 /* ==========================================================================
    Print styles.
@@ -887,74 +957,52 @@ header{
    ========================================================================== */
 
 @media print {
-    *,
-    *:before,
-    *:after,
-    *:first-letter,
-    *:first-line {
+    *, *:before, *:after, *:first-letter, *:first-line {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster:
+        color: #000 !important;
+        /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
-    a,
-    a:visited {
+    a, a:visited {
         text-decoration: underline;
     }
-
     a[href]:after {
         content: " (" attr(href) ")";
     }
-
     abbr[title]:after {
         content: " (" attr(title) ")";
     }
-
     /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
+    a[href^="#"]:after, a[href^="javascript:"]:after {
         content: "";
     }
-
-    pre,
-    blockquote {
+    pre, blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
-
     /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
-
     thead {
         display: table-header-group;
     }
-
-    tr,
-    img {
+    tr, img {
         page-break-inside: avoid;
     }
-
     img {
         max-width: 100% !important;
     }
-
-    p,
-    h2,
-    h3 {
+    p, h2, h3 {
         orphans: 3;
         widows: 3;
     }
-
-    h2,
-    h3 {
+    h2, h3 {
         page-break-after: avoid;
     }
 }

@@ -3,11 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Florent Lequibain -- dev -- @Flo_Lequibain
 
 # THANKS
 
-    <name>
+    you are welcome
 
 # TECHNOLOGY COLOPHON
 
